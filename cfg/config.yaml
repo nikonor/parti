@@ -1,0 +1,35 @@
+# Имя в syslog
+journal_name: parti
+
+# Логирование в syslog
+syslog: true
+
+# Логирование в stdout
+stdout: true
+
+# Адрес админки
+#adminka: localhost:8087
+
+# Уровень логирования
+# LOG_ERR: 3
+# LOG_WARNING: 4
+# LOG_INFO: 6
+# LOG_DEBUG: 7
+log_level: 7
+
+# Количество используемых ядер процессора. По умолчанию: 0 (максимально доступное)
+num_cpu: 0
+
+# Настройки sql
+sql:
+  pguser: apps
+  pgpassword: qasw123
+  pghost:  localhost
+  pgport: 5432
+  pgdatabase: parti
+  pgflags: sslmode=disable
+  # ## кол-во соединений в пуле
+  pool_size: 1
+  ## Таймаут запросов (в миллисекундах)
+  statement_timeout: 100
+    

@@ -1,0 +1,18 @@
+{
+  "module": {
+    "config": {
+      "revision": 1,
+      "updated": "2017-10-09 19:38:01"
+    },
+    "http": {
+      "title": "Настройки Web сервиса",
+      "port": ":8087",
+      "cancelingTimeOut": 15,
+      "socket": "/var/run/emp/__APP_NAME__.socket",
+      "useSocket": false
+    }
+  },
+  "environment": {},
+  "functional": {},
+  "integration": {}
+}

@@ -1,0 +1,24 @@
+GET {{proto}}{{host}}:{{port}}/m
+
+###
+
+GET {{proto}}{{host}}:{{port}}/foo/email
+
+###
+
+GET {{proto}}{{host}}:{{port}}/m
+
+###
+
+GET {{proto}}{{host}}:{{port}}/m/config/get
+Content-Type: application/json
+
+
+###
+
+POST {{proto}}{{host}}:{{port}}/foo
+Content-type: applocation/json
+
+{ "id": 1, "name": "John Doe", "groups": [ { "id": 1, "grp_name": "Группа #1", "grp_age": 1 }, { "id": 2, "grp_name": "Группа #2", "grp_age": 2 } ], "nullString": "", "nullBool":true, "nullFloat": 1.0 }
+
+###

@@ -1,0 +1,5 @@
+.idea
+.project
+cfg/config.ex*
+cfg/config.sch*
+
